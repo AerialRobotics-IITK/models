@@ -2,7 +2,11 @@
 
 ## How to use
 
-Run `roslaunch imav_sim three_firefly.launch`
+Clone this repo in the src directory of a catkin workspace
+
+Run `catkin build imav_sim` to first build the repo using the catkin
+
+To launch the sim run `roslaunch imav_sim three_firefly.launch`
 
 ### The launch directory contains:
 
